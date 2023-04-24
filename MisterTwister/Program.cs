@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello I'm Mister Twister");
+            Console.WriteLine("Cześć, jestem Mister Twister");
             Thread.Sleep(1000);
-            Console.WriteLine("If want to play Twister with me press s");
+            Console.WriteLine("Jeżeli chcesz zagrać ze mną w Twistera naciśnij \"s\"");
             Thread.Sleep(1000);
-            Console.WriteLine("... or press h to get help");
+            Console.WriteLine("... lub naciśnij \"h\", aby wyświetlić pomoc");
             Thread.Sleep(1000);
-            Console.WriteLine("... or press q to quit");
+            Console.WriteLine("... lub naciśnij \"q\", żeby wyjść");
 
             var key = Console.ReadKey();
 
